@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
-import './Title.css';
+import './EstadoUsuario.css';
 
-class Title extends Component{
+class EstadoUsuario extends Component{
     constructor( props ){
         super( props );
             this.state = { estado : 'Asistente'};
@@ -25,4 +25,4 @@ class Title extends Component{
     }
 }
 
-export default Title;
+export default EstadoUsuario;
